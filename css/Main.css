@@ -145,3 +145,8 @@ footer.page-footer {
 footer ul li {
     list-style: disc;
 }
+
+footer.page-footer .footer-copyright {
+    background: none;
+    text-align: center;
+}
