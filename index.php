@@ -7,8 +7,8 @@ include('includes/header.php');
         
         <!--CORPS DE LA PAGE-->
        
-
-<div class="container">
+<!-- REPERES DE COLONNES POUR IMPLEMENTATION -->
+<div class="container center">
 <div class="row">
 <div class="col s1">1</div>
 <div class="col s1">2</div>
@@ -23,6 +23,18 @@ include('includes/header.php');
 <div class="col s1">11</div>
 <div class="col s1">12</div>
 </div>
+</div>
+     
+<div class="container center">
+    <div class="row">
+        <div class="col s12 m6">
+            <p class="decalage">Bonjour et bienvenue</p>
+            <p class="decalage">dans le monde du jardinage <br> professionnel et particulier.</p>
+            <p class="decalage">Chez nous vous découvrirez <br>les dernières tendances,</p>
+            <p class="decalage">les derniers outils et surtout <br> une large gamme</p>
+            <p class="decalage">de produits.</p>     
+        </div>
+    </div>
 </div>
       
 <!-- Ligne de tuiles lien vers pages 1 -->      

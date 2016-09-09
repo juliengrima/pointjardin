@@ -1,4 +1,5 @@
 
+/* balise responsive */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .contenu {
         width:500px;
@@ -12,6 +13,7 @@
     }
 }
 
+/* couleur du body */
 body{
     background-color: #dff6ff;
     background-repeat: no-repeat;
@@ -28,6 +30,7 @@ body{
     margin-left: 15px;
 }
 
+/* barre de navigation */
 nav .button-collapsemain {
     float: left;
     position: relative;
@@ -39,44 +42,6 @@ nav .button-collapsemain {
 .color{
     background-color: aquamarine;
 }
-
-/*.zoomarticle {
-	height: 400px;
-    width: 380px;
-	float: left;
-	margin-bottom: 1.65em;
-	margin-left: 3%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	list-style: none;
-}
- 
-/*TAILLE AGRANDISSEMENT BORD IMAGE*/
-/*.article_big_img {
-	width: 450px;
-	height: 450px;
-	overflow: hidden;
-	padding-right: 20px;
-}*/
- 
-/*TAILLE DE L'IMAGE*/
-/*.article_big_img > img {
-	width: 400px;
-	height: 380px;
-	transition: all 1s;
-	-moz-transition: all 1s;
-	-webkit-transition: all 1s;
-	-o-transition: all 1s;
-}
- 
-.zoomarticle:hover > .article_big_img > img {
-	transform: scale(1.30);
-	-ms-transform: scale(1.30);
-	-webkit-transform: scale(1.30);
-	-o-transform: scale(1.30);
-	-moz-transform: scale(1.30);
-}*/
 
 /* ZOOM IMAGE */
 .zoomarticle2 {
@@ -114,8 +79,9 @@ nav .button-collapsemain {
 	-moz-transform: scale(1.50);
 }
 
+/* coloration des liens texte surbrillance */
 A:link { 
-    COLOR: rgb(222, 100, 0); TEXT-DECORATION: none; FONT-SIZE: 1.0em;
+    COLOR: rgb(0, 0, 0); TEXT-DECORATION: none; FONT-SIZE: 1.0em;
 }
 
 A:hover { 
@@ -123,16 +89,23 @@ A:hover {
 }
 
 .formulaire{
-    display:inline-block;}
+    display:inline-block;
+}
 
 .formulaire .champ{
     background-color: rgb(36, 121, 0);
     width:300px; 
-    height:35px;}
+    height:35px;
+}
 
 .formulaire .bouton{ 
     background-color: rgb(70, 121, 0);
     background-repeat: no-repeat;
     width: 35px;
     height: 35px;
-    padding: 0; }
+    padding: 0; 
+}
+
+.decalage {
+    margin-left: 200px;
+}
