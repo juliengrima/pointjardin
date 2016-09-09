@@ -2,8 +2,12 @@
     <div class="container">
         <div class="row">
             <div class="col l4 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <img src="images/logo.jpg" class="logo" />
+                <h5 class="white-text">Point Jardin</h5>
+                <p class="grey-text text-lighten-4">
+                    <div class="address"> 54 route Nationale 12
+                        <br> 28380 Saint-Rémy-sur-Avre</div>
+                    <div class="phone">02.37.63.50.22</div>
             </div>
             <div class="col l4 s12">
                 <h5 class="white-text">Horaires</h5>
@@ -16,9 +20,7 @@
                 </div>
             </div>
             <div class="col l4 s12">
-                <div class="fb-page" data-href="https://www.facebook.com/PointJardin/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
-                    <blockquote cite="https://www.facebook.com/PointJardin/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PointJardin/">Point Jardin</a></blockquote>
-                </div>
+                <div class="fb-page" data-href="https://www.facebook.com/pointjardin" data-width="380" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/pointjardin" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pointjardin">Point Jardin</a></blockquote></div>
             </div>
         </div>
         <div class="footer-copyright">
