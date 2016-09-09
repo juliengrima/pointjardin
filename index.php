@@ -43,13 +43,12 @@ include('includes/header.php');
             </div>
         </center>
         <div class="col s12 m6 center">
-            <center>
-                <video controls poster="sintel.jpg" height=100% width=100%>
-                    <source src="sintel.mp4">
-                    <source src="sintel.webm">
-                    <source src="sintel.ogv">
-                </video>
-            </center>
+            <video controls poster="images/logo.jpg" height=100% width=100% class="center">
+                <source src="videos/present.mp4">
+                <source src="videos/present.mov">
+                <source src="videos/present.flv">
+                <a href="https://www.youtube.com/watch?v=szGkJgvt2-0">Alternative de la vidéo :</a> 
+            </video>
         </div>
     </div>
 </div>
@@ -88,31 +87,22 @@ include('includes/header.php');
 </div>
 
 <!-- Ligne de tuiles lien vers pages 2 -->
-<div class="container">
-    <div class="row">
-        <div class="col s12 m4">
+<div class="container center">
+    <div class="row center">
+        <div class="col s12 m6">
             <a href="">
-                <div class="zoomarticle2">
-                    <div class="article_big_img2">
-                        <img src="images/a1.jpg" alt="a1.jpg" height=100% width=100%>
+                <div class="zoomarticle1">
+                    <div class="article_big_img1">
+                        <img src="images/a1.jpg" alt="a1.jpg" height=70% width=70%>
                     </div>   
                 </div>
             </a>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m6">
             <a href="">
-                <div class="zoomarticle2">
-                    <div class="article_big_img2">
-                        <img src="images/a1.jpg" alt="a1.jpg" height=100% width=100%>
-                    </div>   
-                </div>
-             </a>
-        </div>
-        <div class="col s12 m4">
-            <a href="">
-                <div class="zoomarticle2">
-                    <div class="article_big_img2">
-                        <img src="images/a1.jpg" alt="a1.jpg" height=100% width=100%>
+                <div class="zoomarticle1">
+                    <div class="article_big_img1">
+                        <img src="images/a1.jpg" alt="a1.jpg" height=70% width=70%>
                     </div>   
                 </div>
              </a>

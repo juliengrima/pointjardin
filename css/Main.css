@@ -43,7 +43,46 @@ nav .button-collapsemain {
     background-color: aquamarine;
 }
 
-/* ZOOM IMAGE */
+/* ZOOM IMAGE 1*/
+
+    /* BOX ZOOM */
+.zoomarticle1 {
+	height: 65%;
+	//float: right;
+	margin-bottom: 1.65em;
+	margin-left: 3%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style: none;
+}
+ 
+    /* BOX IMAGE */
+.article_big_img1 {  
+	width: 70%;
+	height: 70%;
+	overflow: hidden;
+	padding-left: 20px;
+}
+ 
+.article_big_img1 > img {
+	width: 80%;
+	height: 80%;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+}
+ 
+.zoomarticle1:hover > .article_big_img1 > img {
+	transform: scale(1.50);
+	-ms-transform: scale(1.50);
+	-webkit-transform: scale(1.50);
+	-o-transform: scale(1.50);
+	-moz-transform: scale(1.50);
+}
+
+/* ZOOM IMAGE 2*/
 .zoomarticle2 {
 	height: 100%;
 	//float: right;
