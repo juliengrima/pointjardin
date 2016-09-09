@@ -80,8 +80,8 @@ nav .button-collapsemain {
 }
 
 /* coloration des liens texte surbrillance */
-A:link { 
-    COLOR: rgb(0, 0, 0); TEXT-DECORATION: none; FONT-SIZE: 1.0em;
+A:link {
+    COLOR: rgb(255, 255, 255); TEXT-DECORATION: none; FONT-SIZE: 1.0em;
 }
 
 A:hover { 
@@ -103,9 +103,18 @@ A:hover {
     background-repeat: no-repeat;
     width: 35px;
     height: 35px;
-    padding: 0; 
+    padding: 0; }
+
+footer.page-footer {
+    background-color: #195a12;
+    color: white;
 }
 
-.decalage {
-    margin-left: 200px;
+footer ul li {
+    list-style: disc;
+}
+
+footer.page-footer .footer-copyright {
+    background: none;
+    text-align: center;
 }
