@@ -28,6 +28,13 @@ include('includes/header.php');
 <div class="container center">
     <div class="row">
         <div class="col s12 m6">
+           <table>
+               <tr>
+                   <td>
+                       Bonjour et bienvenue
+                   </td>
+               </tr>
+           </table>
             <p class="decalage">Bonjour et bienvenue</p>
             <p class="decalage">dans le monde du jardinage <br> professionnel et particulier.</p>
             <p class="decalage">Chez nous vous découvrirez <br>les dernières tendances,</p>
