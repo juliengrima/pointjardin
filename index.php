@@ -26,20 +26,30 @@ include('includes/header.php');
 </div>
      
 <div class="container center">
-    <div class="row">
-        <div class="col s12 m6">
-           <table>
-               <tr>
-                   <td>
-                       Bonjour et bienvenue
-                   </td>
-               </tr>
-           </table>
-            <p class="decalage">Bonjour et bienvenue</p>
-            <p class="decalage">dans le monde du jardinage <br> professionnel et particulier.</p>
-            <p class="decalage">Chez nous vous découvrirez <br>les dernières tendances,</p>
-            <p class="decalage">les derniers outils et surtout <br> une large gamme</p>
-            <p class="decalage">de produits.</p>     
+    <div class="row center">
+       <center>
+            <div class="col s12 m6 center">
+               <table>
+                   <tr>
+                       <td>
+                           Bonjour et bienvenue, <br>
+                           dans le monde du jardinage <br> professionnel et particulier.<br>
+                           Chez nous vous découvrirez <br> les dernières tendances,<br>
+                           les derniers outils et <br> surtout une large gamme de <br>
+                           produits
+                       </td>
+                   </tr>
+               </table>   
+            </div>
+        </center>
+        <div class="col s12 m6 center">
+            <center>
+                <video controls poster="sintel.jpg" height=100% width=100%>
+                    <source src="sintel.mp4">
+                    <source src="sintel.webm">
+                    <source src="sintel.ogv">
+                </video>
+            </center>
         </div>
     </div>
 </div>
