@@ -47,10 +47,10 @@ nav .button-collapsemain {
 
     /* BOX ZOOM */
 .zoomarticle1 {
-	height: 65%;
-	//float: right;
+	height: auto;
+	/*float: right;
 	margin-bottom: 1.65em;
-	margin-left: 3%;
+	margin-left: 3%;*/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -59,15 +59,15 @@ nav .button-collapsemain {
  
     /* BOX IMAGE */
 .article_big_img1 {  
-	width: 70%;
-	height: 70%;
+	width: 220px;
+	height: 220px;
 	overflow: hidden;
-	padding-left: 20px;
+	/*padding: 2px;*/
 }
  
 .article_big_img1 > img {
-	width: 80%;
-	height: 80%;
+	width: 250px;
+	height: 250px;
 	transition: all 1s;
 	-moz-transition: all 1s;
 	-webkit-transition: all 1s;
@@ -144,6 +144,8 @@ A:hover {
     height: 35px;
     padding: 0; }
 
+/* FOOTER */
+
 footer.page-footer {
     background-color: #195a12;
     color: white;
@@ -157,3 +159,42 @@ footer.page-footer .footer-copyright {
     background: none;
     text-align: center;
 }
+
+.logo {
+    height= 35px;
+    width: 35px;
+    float: left;
+    padding-right: 1px;
+    margin-right: 2px;
+}
+
+.white-text {
+    margin-top: 4px;
+}
+
+.address {
+    background: url(../images/lct.png) no-repeat 0 0%;
+    padding-left: 30px;
+}
+
+.phone {
+    background: url(../images/phn.png) no-repeat 0 0%;
+    padding-left: 30px;
+}
+
+/* IMAGES 3D */
+ /*div#stage{ 
+     perspective: 600px; 
+}
+img { 
+    transition-property : transform; 
+    transition-duration : 0.7s; 
+    transform: matrix3d(0.7109, 0, -0.703279, 0, 0, 1, 0, 0, 0.703279, 0, 0.7109, 0, 0, 0, 0, 1);
+    box-reflect : below 15px gradient(linear, left top, left bottom, from(transparent), color-stop(0.7, transparent), to(#ff0000)); 
+}
+
+img:hover { 
+    transition-property: transform; 
+    transition-duration: 0.7s; 
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 200, 1); 
+} */

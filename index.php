@@ -27,9 +27,9 @@ include('includes/header.php');
      
 <div class="container center">
     <div class="row center">
-       <center>
-            <div class="col s12 m6 center">
-               <table>
+        <div class="col s12 m6 center">
+            <center>
+                <table>
                    <tr>
                        <td>
                            Bonjour et bienvenue, <br>
@@ -39,9 +39,9 @@ include('includes/header.php');
                            produits
                        </td>
                    </tr>
-               </table>   
-            </div>
-        </center>
+                </table> 
+            </center>  
+        </div>
         <div class="col s12 m6 center">
             <video controls poster="images/logo.jpg" height=100% width=100% class="center">
                 <source src="videos/present.mp4">
@@ -60,7 +60,7 @@ include('includes/header.php');
             <a href="">
                 <div class="zoomarticle2">
                     <div class="article_big_img2">
-                        <img src="images/a1.jpg" alt="a1.jpg" height=100% width=100%>
+                        <img src="images/galets.jpg" alt="Mineral" height=100% width=100%>
                     </div>   
                 </div>
             </a>
@@ -69,7 +69,7 @@ include('includes/header.php');
             <a href="">
                 <div class="zoomarticle2">
                     <div class="article_big_img2">
-                        <img src="images/a1.jpg" alt="a1.jpg" height=100% width=100%>
+                        <img src="images/chanvre.jpg" alt="vegetal" height=100% width=100%>
                     </div>   
                 </div>
              </a>
@@ -78,7 +78,7 @@ include('includes/header.php');
             <a href="">
                 <div class="zoomarticle2">
                     <div class="article_big_img2">
-                        <img src="images/a1.jpg" alt="a1.jpg" height=100% width=100%>
+                        <img src="images/gazon" alt="Accessoires" height=100% width=100%>
                     </div>   
                 </div>
              </a>
@@ -88,24 +88,28 @@ include('includes/header.php');
 
 <!-- Ligne de tuiles lien vers pages 2 -->
 <div class="container center">
-    <div class="row center">
-        <div class="col s12 m6">
-            <a href="">
-                <div class="zoomarticle1">
-                    <div class="article_big_img1">
-                        <img src="images/a1.jpg" alt="a1.jpg" height=70% width=70%>
-                    </div>   
-                </div>
-            </a>
+    <div class="row">
+        <div class="col s12 m6 center">
+            <center>
+                <a href="">
+                    <div class="zoomarticle1">
+                        <div class="article_big_img1">
+                            <img src="images/livraison" alt="Services" height=70% width=70%>
+                        </div>   
+                    </div>
+                </a>
+            </center>
         </div>
         <div class="col s12 m6">
-            <a href="">
-                <div class="zoomarticle1">
-                    <div class="article_big_img1">
-                        <img src="images/a1.jpg" alt="a1.jpg" height=70% width=70%>
-                    </div>   
-                </div>
-             </a>
+           <center>
+                <a href="pages/concept.php">
+                    <div class="zoomarticle1">
+                        <div class="article_big_img1">
+                            <img src="images/concept1" alt="Conceptions" height=70% width=70%>
+                        </div>   
+                    </div>
+                </a>
+            </center>
         </div>
     </div>
 </div>
