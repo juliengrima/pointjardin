@@ -180,6 +180,7 @@ footer.page-footer .footer-copyright {
 .phone {
     background: url(../images/phn.png) no-repeat 0 0%;
     padding-left: 30px;
+<<<<<<< HEAD
 }
 
 /* IMAGES 3D */
@@ -198,3 +199,6 @@ img:hover {
     transition-duration: 0.7s; 
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 200, 1); 
 } */
+=======
+}
+>>>>>>> e972f421489b0394324066bc70ad46fc809b9e31
