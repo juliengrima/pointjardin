@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Point Jardin - Matériaux pour le jardin</title>
 
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,6 +18,8 @@
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link type="text/css" rel="stylesheet" href="css/Main.css">
 
@@ -44,21 +46,24 @@
 <body class="back">
 
     <header>
-        <nav class="light-blue lighten-1" role="navigation">
-            <div class="nav-wrapper container">
-                <a href="#" class="brand-logo" id="logo-container">Logo</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Acceuil</a></li>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Nous contacter</a></li>
-                </ul>
+        <div class="navbar-fixed">
+            <nav class="light-green lighten-1" role="navigation">
+                <div class="nav-wrapper container">
+                    <a href="#" class="brand-logo" id="logo-container"><img src="images/logo3.png" class="imglogo"></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">A propos</a></li>
+                        <li><a href="/">Nous contacter</a></li>
+                        <li><i class="material-icons">shopping_cart</i></li>
+                    </ul>
 
-                <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#">Navbar Link</a></li>
-                </ul>
-                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-            </div>
-        </nav>
+                    <ul id="nav-mobile" class="side-nav">
+                        <li><a href="#">Navbar Link</a></li>
+                    </ul>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <br>

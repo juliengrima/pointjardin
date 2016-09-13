@@ -6,6 +6,7 @@
         background-color:blue;
     }
 }
+
 @media screen and (min-width: 993px) {
     .contenu {
         width:800px;
@@ -15,13 +16,21 @@
 
 /* couleur du body */
 body{
-    background-color: #dff6ff;
+    background-color: #EBECE4;
     background-repeat: no-repeat;
+}
+
+/* HEADER */
+
+.imglogo {
+    width: 150px;
+    height: 100%;
 }
 
 .containermain {
     width: 100%;
 }
+
 
 .rightmain {
     float: left;
@@ -105,8 +114,10 @@ A:hover {
     height: 35px;
     padding: 0; }
 
+/*FOOTER */
+
 footer.page-footer {
-    background-color: #195a12;
+    background-color: #9ccc65;
     color: white;
 }
 
@@ -120,8 +131,7 @@ footer.page-footer .footer-copyright {
 }
 
 .logo {
-    height= 35px;
-    width: 35px;
+    width: 50px;
     float: left;
     padding-right: 1px;
     margin-right: 2px;
@@ -129,14 +139,18 @@ footer.page-footer .footer-copyright {
 
 .white-text {
     margin-top: 4px;
-}
-
-.address {
-    background: url(../images/lct.png) no-repeat 0 0%;
-    padding-left: 30px;
+    text-align: center;
 }
 
 .phone {
-    background: url(../images/phn.png) no-repeat 0 0%;
-    padding-left: 30px;
+    padding: 3px;
+}
+
+i.small {
+    float: left;
+    margin-right: 5px;
+}
+
+fb-page {
+    text-align: center;
 }
