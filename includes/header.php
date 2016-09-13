@@ -53,7 +53,7 @@
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#">Accueil</a></li>
                         <li><a href="#">A propos</a></li>
-                        <li><a href="/">Nous contacter</a></li>
+                        <li><a href="/" class="contact">Nous contacter</a></li>
                         <li><i class="material-icons">shopping_cart</i></li>
                     </ul>
 

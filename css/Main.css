@@ -25,6 +25,8 @@ body{
 .imglogo {
     width: 150px;
     height: 100%;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 .containermain {
@@ -39,6 +41,13 @@ body{
     margin-left: 15px;
 }
 
+.contact {
+    margin-right: 15px;
+}
+
+nav, i.material-icons {
+    margin-right: 15px;
+}
 /* barre de navigation */
 nav .button-collapsemain {
     float: left;
@@ -51,6 +60,11 @@ nav .button-collapsemain {
 .color{
     background-color: aquamarine;
 }
+
+nav .nav-wrapper {
+    width: 100%;
+}
+
 
 /* ZOOM IMAGE */
 .zoomarticle2 {
