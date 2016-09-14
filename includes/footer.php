@@ -2,12 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col l4 s12">
-                <img src="images/logo.jpg" class="logo" />
-                <h5 class="white-text">Point Jardin</h5>
+                <img src="images/logo2.png" class="logo" />
+                <h5 class="white-text" id="PJ">Point Jardin</h5>
                 <p class="grey-text text-lighten-4">
-                    <div class="address"> 54 route Nationale 12
-                        <br> 28380 Saint-Rémy-sur-Avre</div>
-                    <div class="phone">02.37.63.50.22</div>
+                   <i class="small material-icons">room</i><p> 54 route Nationale 12
+                        <br> 28380 Saint-Rémy-sur-Avre</p>
+                <i class="small material-icons">phone</i><p class="phone">02.37.63.50.22</p>
+                <i class="small material-icons">mail</i><p class="phone"><a href="mailto:info@point-jardin.fr">info@point-jardin.fr</a></p>
             </div>
             <div class="col l4 s12">
                 <h5 class="white-text">Horaires</h5>
@@ -19,8 +20,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="col l4 s12">
-                <div class="fb-page" data-href="https://www.facebook.com/pointjardin" data-width="380" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/pointjardin" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pointjardin">Point Jardin</a></blockquote></div>
+            <div class="col l4 s12" id="fbplugin">
+                <div class="fb-page" data-href="https://www.facebook.com/pointjardin" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/pointjardin" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pointjardin">Point Jardin</a></blockquote></div>
             </div>
         </div>
         <div class="footer-copyright">
