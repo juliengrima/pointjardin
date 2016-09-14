@@ -54,6 +54,7 @@
                         <li><a href="#">Accueil</a></li>
                         <li><a href="#">A propos</a></li>
                         <li><a href="/" class="contact">Nous contacter</a></li>
+                        <li><i class="material-icons">search</i></li>
                         <li><i class="material-icons">shopping_cart</i></li>
                     </ul>
 
