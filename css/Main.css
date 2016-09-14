@@ -46,7 +46,8 @@
 
 
 /* couleur du body */
-body {
+body{
+
     background-color: #EBECE4;
     background-repeat: no-repeat;
 }
@@ -81,7 +82,6 @@ i.material-icons {
     margin-right: 15px;
 }
 
-
 /* barre de navigation */
 
 nav .button-collapsemain {
@@ -95,8 +95,7 @@ nav .button-collapsemain {
 .color {
     background-color: aquamarine;
 }
-
-<<<<<<< HEAD
+D
 /* ZOOM IMAGE 1*/
 
     /* BOX ZOOM */
@@ -134,9 +133,11 @@ nav .nav-wrapper {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     list-style: none;
+
 }
 
 .article_big_img2 {
+<<<<<<< HEAD
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -144,6 +145,7 @@ nav .nav-wrapper {
 }
 
 .article_big_img2 > img {
+<<<<<<< HEAD
     width: 100%;
     height: 100%;
     transition: all 1s;
@@ -194,10 +196,7 @@ A:hover {
 }
 
 
-/*FOOTER */
-
 /* FOOTER */
-
 footer.page-footer {
     background-color: #9ccc65;
     color: white;
@@ -227,8 +226,7 @@ footer.page-footer .footer-copyright {
 .phone {
     padding: 3px;
 }
- 
-   
+
 i.small {
     float: left;
     margin-right: 5px;
