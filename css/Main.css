@@ -81,6 +81,7 @@
 body {
     /*background-image: url('../images/secret_garden.jpg');*/
     background-color: #EBECE4;
+    background-color: RGBa(235, 236, 228, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -135,10 +136,7 @@ nav .button-collapsemain {
     color: snow;
 }
 
-D
 /* ZOOM IMAGE 1*/
-
-
 /* BOX ZOOM */
 
 .zoomarticle1 {
@@ -150,16 +148,6 @@ D
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     list-style: none;
-}
-
-
-/* BOX IMAGE */
-
-.article_big_img1 {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    /*padding: 2px;*/
 }
 
 nav .nav-wrapper {
@@ -337,10 +325,73 @@ h5 {
     width: 250px;
 }
 
-/*.parallax-container {
-      height: 100%;
-    }*/
+.marge{
+    margin-left: 50px;
+}
 
-.opac{
-    opacity: 0;
+.parallax-container {
+      height: 150px;
+    }
+
+/* IMAGE 3D */
+
+.container3d{
+	-webkit-perspective:600;
+}
+#cube{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 40px; /*pour centrer le cube sur la page*/
+	-webkit-transform-style: preserve-3d;
+}
+#cube div{
+	position:absolute;
+	-webkit-backface-visibility: hidden;
+	overflow:hidden;
+	width:200px;
+   	height:200px;
+   	opacity:0.5;
+}
+
+#front{
+   	-webkit-transform: translateZ( 100px );
+}
+#back{
+	-webkit-transform: translateZ( -100px );
+}	
+
+#left{
+	-webkit-transform: rotateY( 90deg ) translateZ( 100px );
+}
+#right{
+	-webkit-transform: rotateY( -90deg ) translateZ( 100px );
+}
+
+#up{
+    -webkit-transform: rotateX(90deg) translateZ( 100px );
+}
+#bottom{
+	-webkit-transform: rotateX(-90deg) translateZ( 100px );
+}
+
+#cube{
+  	width: 200px;
+	height: 200px;
+	margin: 0 auto 40px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform 2s;
+	-webkit-transform: translateZ(-100px) rotateX( -220deg ) rotateY( 45deg ); 
+}
+
+#cube.rotation {
+	-webkit-animation: rotateCube 8s infinite ease-in-out;
+}
+/*animation css*/
+@-webkit-keyframes rotateCube {
+	0% { 
+		-webkit-transform: translateZ( -100px ) rotateX(   0deg ) rotateY(   0deg );
+	}
+	100% {
+		-webkit-transform: translateZ( -100px ) rotateX( 360deg ) rotateY( 360deg );
+	}
 }
