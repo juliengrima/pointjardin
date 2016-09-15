@@ -145,8 +145,8 @@ D
  
     /* BOX IMAGE */
 .article_big_img1 {  
-	width: 220px;
-	height: 220px;
+	width: 100%;
+	height: 100%;
 	overflow: hidden;
 	/*padding: 2px;*/
 }
@@ -159,9 +159,9 @@ nav .nav-wrapper {
 /* ZOOM IMAGE */
 .zoomarticle2 {
     height: 100%;
-    //float: right;
-    margin-bottom: 1.65em;
-    margin-left: 3%;
+    /*float: right;*/
+    margin-bottom: 0em;
+    margin-left: 0%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -170,15 +170,13 @@ nav .nav-wrapper {
 }
 
 .article_big_img2 {
-<<<<<<< HEAD
-    width: 100%;
-    height: 100%;
+    width: 100%; /* LARGEUR IMAGE */
+    height: 220px; /* TAILLE HAUTEUR IMAGE */
     overflow: hidden;
-    padding-left: 20px;
+    padding-left: 0px; /* AGRANDISSEMENT VERS GAUCHE DE L'IMAGE*/
 }
 
 .article_big_img2 > img {
-<<<<<<< HEAD
     width: 100%;
     height: 100%;
     transition: all 1s;
@@ -269,3 +267,30 @@ fb-page {
     text-align: center;
 }
 
+.icone {
+    height: 40%;
+    width: 40%;
+}
+
+.taille{
+    padding: 0%;
+}
+
+.haut{
+    padding-top: 15%;
+}
+
+h5 {
+    color: #4AAD1F;
+    font-size: larger;
+}
+
+.welcome {
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.large{
+    width: 70%;
+}
