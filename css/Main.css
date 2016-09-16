@@ -33,11 +33,12 @@
         float: none !important;
         width: 75px !important;
     }
-    
+
     #logofooter {
         float: none !important;
         width: 75px !important;
     }
+
     footer ul li {
         list-style: none !important;
     }
@@ -88,6 +89,7 @@
         float: none !important;
         width: 75px !important;
     }
+
     footer ul li {
         list-style: none !important;
     }
@@ -116,10 +118,15 @@
 
 
 /* couleur du body */
-body{
 
+body {
+    /*background-image: url('../images/secret_garden.jpg');*/
     background-color: #EBECE4;
+    background-color: RGBa(235, 236, 228, 0.5)!important;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;
 }
 
 
@@ -156,6 +163,7 @@ i.material-icons {
     margin-right: 15px;
 }
 
+
 /* barre de navigation */
 
 nav .button-collapsemain {
@@ -170,76 +178,18 @@ nav .button-collapsemain {
     background-color: aquamarine;
 }
 
+.colorbis{
+    color: snow;
+}
+
 #mobile-demo {
     display: none;
 }
-/* ZOOM IMAGE 1*/
 
-    /* BOX ZOOM */
-.zoomarticle1 {
-	height: auto;
-	/*float: right;
-	margin-bottom: 1.65em;
-	margin-left: 3%;*/
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	list-style: none;
-}
- 
-    /* BOX IMAGE */
-.article_big_img1 {  
-	width: 220px;
-	height: 220px;
-	overflow: hidden;
-	/*padding: 2px;*/
-}
- 
 nav .nav-wrapper {
     width: 100%;
     margin-top: 0px;
 }
-
-
-/* ZOOM IMAGE */
-.zoomarticle2 {
-    height: 100%;
-    //float: right;
-    margin-bottom: 1.65em;
-    margin-left: 3%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    list-style: none;
-
-}
-
-.article_big_img2 {
-<<<<<<< HEAD
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-    padding-left: 20px;
-}
-
-.article_big_img2 > img {
-<<<<<<< HEAD
-    width: 100%;
-    height: 100%;
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
-}
-
-.zoomarticle2:hover > .article_big_img2 > img {
-    transform: scale(1.50);
-    -ms-transform: scale(1.50);
-    -webkit-transform: scale(1.50);
-    -o-transform: scale(1.50);
-    -moz-transform: scale(1.50);
-}
-
 
 /* coloration des liens texte surbrillance */
 
@@ -250,6 +200,18 @@ A:link {
 }
 
 A:hover {
+    COLOR: rgb(218, 148, 32);
+    TEXT-DECORATION: none;
+    FONT-SIZE: 1.0em;
+}
+
+#lien:link {
+    COLOR: rgb(178, 193, 205);
+    TEXT-DECORATION: none;
+    FONT-SIZE: 1.0em;
+}
+
+#lien:hover {
     COLOR: rgb(218, 148, 32);
     TEXT-DECORATION: none;
     FONT-SIZE: 1.0em;
@@ -275,10 +237,11 @@ A:hover {
 
 
 /* FOOTER */
+
 footer.page-footer {
     background-color: #9ccc65;
     color: white;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 footer ul li {
@@ -299,7 +262,6 @@ footer.page-footer .footer-copyright {
 
 .white-text {
     margin-top: 4px;
-    /*    text-align: center;*/
 }
 
 .phone {
@@ -313,6 +275,20 @@ i.small {
 
 fb-page {
     text-align: center;
+}
+
+
+.icone {
+    height: 40%;
+    width: 40%;
+}
+
+.taille {
+    padding: 0%;
+}
+
+.haut {
+    padding-top: 15%;
 }
 
 /* PRODUIT */
@@ -347,9 +323,15 @@ h3 {
 .parallax-container {
     height: 350px;
 }
+#ac {
+    height: 150px;
+}
 
 .card .card-content .card-title {
     line-height: 25px;
+}
+#cont{
+    line-height: 40px;
 }
 
 /*ICONE RETOUR HAUT*/
@@ -403,10 +385,101 @@ a.back-to-top {
 }
 
 h5 {
-    color: #4AAD1F;
+    color: #4aad1f;
     font-size: larger;
 }
 
 .welcome {
+    font-size: 15px;
+    height: 100%;
     width: 100%;
+}
+
+.large {
+    width: 70%;
+}
+
+.card{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+}
+
+.activator{
+    height: 250px;
+    width: 250px;
+}
+
+.marge{
+    margin-left: 50px;
+}
+
+/* IMAGE 3D */
+
+.container3d{
+	-webkit-perspective:600;
+}
+#cube{
+	width: 200px;
+	height: 800px;
+	margin: 0 auto 40px; /*pour centrer le cube sur la page*/
+	-webkit-transform-style: preserve-3d;
+}
+#cube div{
+	position:absolute;
+	-webkit-backface-visibility: hidden;
+	overflow:hidden;
+	width:200px;
+   	height:200px;
+   	opacity:0.5;
+}
+
+#front{
+   	-webkit-transform: translateZ( 100px );
+}
+#back{
+	-webkit-transform: translateZ( -100px );
+}	
+
+#left{
+	-webkit-transform: rotateY( 90deg ) translateZ( 100px );
+}
+#right{
+	-webkit-transform: rotateY( -90deg ) translateZ( 100px );
+}
+
+#up{
+    -webkit-transform: rotateX(90deg) translateZ( 100px );
+}
+#bottom{
+	-webkit-transform: rotateX(-90deg) translateZ( 100px );
+}
+
+#cube{
+  	width: 200px;
+	height: 200px;
+	margin: 0 auto 40px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform 2s;
+	-webkit-transform: translateZ(-100px) rotateX( -220deg ) rotateY( 45deg ); 
+}
+
+#cube.rotation {
+	-webkit-animation: rotateCube 8s infinite ease-in-out;
+}
+/*animation css*/
+@-webkit-keyframes rotateCube {
+	0% { 
+		-webkit-transform: translateZ( -100px ) rotateX(   0deg ) rotateY(   0deg );
+	}
+	100% {
+		-webkit-transform: translateZ( -100px ) rotateX( 360deg ) rotateY( 360deg );
+	}
+
+    width: 100%;
+
 }

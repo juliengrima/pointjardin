@@ -42,7 +42,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2016 Copyright Point Jardin
+                
             </div>
         </div>
     </div>
@@ -108,6 +108,15 @@ $('a.back-to-top, a.simple-back-to-top').click(function() {
     $(".button-collapse").sideNav();
 </script>
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    
+    <SCRIPT>$(document).ready(function(){
+      $('.parallax').parallax();
+    });</SCRIPT>
+    
 <script>
 $(document).ready(function(){
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered

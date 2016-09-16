@@ -49,6 +49,8 @@
 
 </head>
 
+<body class="back">
+
 <header>
     <div class="navbar-fixed">
         <nav class="light-green lighten-1" role="navigation">
