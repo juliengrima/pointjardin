@@ -340,7 +340,7 @@ h5 {
 }
 #cube{
 	width: 200px;
-	height: 200px;
+	height: 800px;
 	margin: 0 auto 40px; /*pour centrer le cube sur la page*/
 	-webkit-transform-style: preserve-3d;
 }

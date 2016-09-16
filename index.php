@@ -254,7 +254,7 @@ include('includes/header.php');
                     <div class="col s12 m6 l6 center">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" alt="livraison services" src="images/concept1">
+                                <img class="activator" alt="livraison services" src="images/concept1.jpg">
                             </div>
                             <div class="card-content"> 
                                 <span class="card-title activator grey-text text-darken-4">CONCEPTIONS<i class="material-icons right">more_vert</i></span>
