@@ -49,10 +49,11 @@
                         </div>
                     </div>
                     <div class="col s12 m6 center">
-                        <video controls poster="images/logovideo.jpg" height=100% width=100% class="responsive-video center haut">
+                        <!--<video controls poster="images/logovideo.jpg" height=100% width=100% class="responsive-video center haut">
                             <source src="videos/present.mp4">
                             <source src="videos/present.mov">
-                            <source src="videos/present.flv"> <a href="https://www.youtube.com/watch?v=szGkJgvt2-0">Alternative de la vidéo :</a> </video>
+                            <source src="videos/present.flv"> <a href="https://www.youtube.com/watch?v=szGkJgvt2-0">Alternative de la vidéo :</a> </video>-->
+                        <iframe width="400px"100% height="300px" src="https://www.youtube.com/embed/szGkJgvt2-0" class="responsive-video center haut" frameborder="0" allowfullscreen></iframe>       
                     </div>
                 </div>
             </div>
