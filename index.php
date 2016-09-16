@@ -1,9 +1,4 @@
-<?php   
-
-include('includes/header.php');
-//include('includes/body1.php');
-
-?>
+<?php include('includes/header.php'); ?>
         
         <!--CORPS DE LA PAGE-->
        
@@ -24,7 +19,7 @@ include('includes/header.php');
 <div class="col s1">12</div>
 </div>
 </div>
-     
+
 <div class="container center">
     <div class="row center">
         <div class="col s12 m6 center">
@@ -94,7 +89,7 @@ include('includes/header.php');
                 <a href="">
                     <div class="zoomarticle1">
                         <div class="article_big_img1">
-                            <img src="images/livraison" alt="Services" height=70% width=70%>
+                            <img src="images/livraison.jpeg" alt="Services" height=70% width=70%>
                         </div>   
                     </div>
                 </a>
