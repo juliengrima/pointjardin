@@ -5,6 +5,15 @@
         width: 500px;
         background-color: blue;
     }
+    .hide-on-med-and-down {
+        display: none;
+    }
+    #mobile-demo {
+        display: inline-block !important;
+    }
+    .brand-logo {
+        left: 15% !important;
+    }
     .imglogo {
         width: 90px !important;
     }
@@ -25,6 +34,10 @@
         width: 75px !important;
     }
     
+    #logofooter {
+        float: none !important;
+        width: 75px !important;
+    }
     footer ul li {
         list-style: none !important;
     }
@@ -34,15 +47,28 @@
     }
     .white-text {
         margin-top: 20px !important;
+    }
+    .card {
+        width: 80%;
+        margin-left: 15%;
+    }
+    .card-title {
+        font-size: 12px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    i.small {
+    .hide-on-med-and-down {
         display: none;
     }
+    #mobile-demo {
+        display: inline-block !important;
+    }
+    .brand-logo {
+        left: 35% !important;
+    }
     .imglogo {
-        width: 90px !important;
+        width: 25% !important;
     }
     footer {
         text-align: center;
@@ -54,10 +80,14 @@
         display: none;
     }
     .logo {
-        float: none !important;
+        float: left !important;
         width: 75px !important;
     }
     
+    #logofooter {
+        float: none !important;
+        width: 75px !important;
+    }
     footer ul li {
         list-style: none !important;
     }
@@ -65,8 +95,15 @@
         margin-top: 0;
         margin-bottom: 0;
     }
+    #icnfooter {
+        display: none;
+    }
     .white-text {
         margin-top: 20px !important;
+    }
+    .card {
+        width: 90%;
+        margin-left: 5%;
     }
 }
 
@@ -95,8 +132,12 @@ body{
     margin-top: 5px;
 }
 
+.container {
+    margin-top: 25px;
+}
 .containermain {
     width: 100%;
+    
 }
 
 .rightmain {
@@ -128,7 +169,10 @@ nav .button-collapsemain {
 .color {
     background-color: aquamarine;
 }
-D
+
+#mobile-demo {
+    display: none;
+}
 /* ZOOM IMAGE 1*/
 
     /* BOX ZOOM */
@@ -153,6 +197,7 @@ D
  
 nav .nav-wrapper {
     width: 100%;
+    margin-top: 0px;
 }
 
 
@@ -170,8 +215,8 @@ nav .nav-wrapper {
 }
 
 .article_big_img2 {
-    width: 100%; /* LARGEUR IMAGE */
-    height: 220px; /* TAILLE HAUTEUR IMAGE */
+    width: 100%;
+    height: 300px;
     overflow: hidden;
     padding-left: 0px; /* AGRANDISSEMENT VERS GAUCHE DE L'IMAGE*/
 }
@@ -231,6 +276,7 @@ A:hover {
 footer.page-footer {
     background-color: #9ccc65;
     color: white;
+    margin-top: 0;
 }
 
 footer ul li {
@@ -242,7 +288,7 @@ footer.page-footer .footer-copyright {
     text-align: center;
 }
 
-.logo {
+#logofooter {
     width: 50px;
     float: left;
     padding-right: 1px;
@@ -267,6 +313,7 @@ fb-page {
     text-align: center;
 }
 
+
 .icone {
     height: 40%;
     width: 40%;
@@ -278,6 +325,92 @@ fb-page {
 
 .haut{
     padding-top: 15%;
+
+/* PRODUIT */
+
+.buy {
+    width: 70%;
+    margin-left: 10%;
+}
+
+.title {
+    color: forestgreen;
+}
+
+.desctitle {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.descpdt {
+    font-size: 14px;
+}
+
+#produit {
+    padding: 35px;
+}
+
+h3 {
+    text-align: center;
+    color: 
+}
+
+.parallax-container {
+    height: 350px;
+}
+
+.card .card-content .card-title {
+    line-height: 25px;
+}
+
+/*ICONE RETOUR HAUT*/
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #9ccc65 url("../images/up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/*CONTACT FORM*/
+
+#contactform {
+    width: 60%;
+    height: 100%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.modal-content p {
+    text-align: center;
+}
+
+.modal-content h4 {
+    color: #9ccc65;
+    text-align: center;
+}
+.btn {
+    float: right;
+    background-color: #9ccc65;
+}
+
+.contacth3 {
+    color: #9ccc65;
+}
+.input-field .prefix {
+     color: #9ccc65;
+   }
+
+/*BIENVENUE*/
+.icnbien {
+    width: 50%;
 }
 
 h5 {
@@ -293,4 +426,5 @@ h5 {
 
 .large{
     width: 70%;
+    width: 100%;
 }

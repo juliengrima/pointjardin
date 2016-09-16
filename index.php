@@ -1,9 +1,4 @@
-<?php   
-
-include('includes/header.php');
-//include('includes/body1.php');
-
-?>
+<?php include('includes/header.php'); ?>
         
         <!--CORPS DE LA PAGE-->
        
@@ -24,9 +19,9 @@ include('includes/header.php');
 <div class="col s1">12</div>
 </div>
 </div>-->
-     
-<div class="container">
-    <div class="row">
+
+<div class="container center">
+    <div class="row center">
         <div class="col s12 m6 center">
                 <div class="welcome">
                     <h5>BIENVENUE CHEZ POINT JARDIN !</h5>
