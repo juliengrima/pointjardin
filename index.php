@@ -1,12 +1,9 @@
-<?php   
-
-include('includes/header.php');
-//include('includes/body1.php');
-
-?>
-    <!--CORPS DE LA PAGE-->
-    <!-- REPERES DE COLONNES POUR IMPLEMENTATION -->
-    <!-- <div class="container center">
+<?php include('includes/header.php'); ?>
+        
+        <!--CORPS DE LA PAGE-->
+       
+<!-- REPERES DE COLONNES POUR IMPLEMENTATION -->
+<!-- <div class="container center">
 <div class="row">
 <div class="col s1">1</div>
 <div class="col s1">2</div>
@@ -22,6 +19,7 @@ include('includes/header.php');
 <div class="col s1">12</div>
 </div>
 </div>-->
+
    
           <!-- DEBUT ROW1 -->
            <div class="container"> 
@@ -51,7 +49,7 @@ include('includes/header.php');
                         </div>
                     </div>
                     <div class="col s12 m6 center">
-                        <video controls poster="images/logo.jpg" height=100% width=100% class="responsive-video center haut">
+                        <video controls poster="images/logovideo.jpg" height=100% width=100% class="responsive-video center haut">
                             <source src="videos/present.mp4">
                             <source src="videos/present.mov">
                             <source src="videos/present.flv"> <a href="https://www.youtube.com/watch?v=szGkJgvt2-0">Alternative de la vidéo :</a> </video>
@@ -62,7 +60,7 @@ include('includes/header.php');
                 <!-- FIN ROW1  -->
                 
                 <!-- PARALLAX2 -->
-                <div class="parallax-container">
+                <div class="parallax-container" id="ac">
                     <div class="parallax">
                         <img src="images/secret_garden.jpg">
                     </div>
@@ -76,9 +74,9 @@ include('includes/header.php');
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" alt="livraison services" src="images/galets.jpg">
                             </div>
-                            <div class="card-content"> 
+                            <div class="card-content" id="cont"> 
                                 <span class="card-title activator grey-text text-darken-4">MINERAL<i class="material-icons right">more_vert</i></span>
-                                <p><a href="mineral.php" class="lien">Aller voir</a></p>
+                                <p><a href="mineral.php" id="lien">Aller voir</a></p>
                             </div>
                             <div class="card-reveal"> 
                                 <span class="card-title grey-text text-darken-4">MINERAL<i class="material-icons right">close</i></span>
@@ -87,31 +85,31 @@ include('includes/header.php');
                                 <div class="marge">
                                     <table>
                                         <tr>
-                                            <li><a href="" class="lien">Ardoises</a></li>
+                                            <li><a href="" id="lien">Ardoises</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Briques</a></li>
+                                            <li><a href="" id="lien">Briques</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Décoratifs</a></li>
+                                            <li><a href="" id="lien">Décoratifs</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Galets</a></li>
+                                            <li><a href="" id="lien">Galets</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Gros volumes</a></li>
+                                            <li><a href="" id="lien">Gros volumes</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">OPUS</a></li>
+                                            <li><a href="" id="lien">OPUS</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Pouzzolane</a></li>
+                                            <li><a href="" id="lien">Pouzzolane</a></li>
                                         </tr>
                                         <tr>
-                                            <lI><a href="" class="lien">Sable</a></lI>
+                                            <lI><a href="" id="lien">Sable</a></lI>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Schiste</a></li>
+                                            <li><a href="" id="lien">Schiste</a></li>
                                         </tr>   
                                     </table>
                                 </div>
@@ -123,9 +121,9 @@ include('includes/header.php');
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" alt="livraison services" src="images/chanvre.jpg">
                             </div>
-                            <div class="card-content"> 
+                            <div class="card-content" id="cont"> 
                                 <span class="card-title activator grey-text text-darken-4">VEGETAL<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#" class="lien">Aller voir</a></p>
+                                <p><a href="#" id="lien">Aller voir</a></p>
                             </div>
                             <div class="card-reveal"> 
                                 <span class="card-title grey-text text-darken-4">VEGETAL<i class="material-icons right">close</i></span>
@@ -134,25 +132,25 @@ include('includes/header.php');
                                 <div class="marge">
                                     <table>
                                         <tr>
-                                            <li><a href="" class="lien">Chanvre</a></li>
+                                            <li><a href="" id="lien">Chanvre</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Ecorce de pin</a></li>
+                                            <li><a href="" id="lien">Ecorce de pin</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Noyaux de fruit</a></li>
+                                            <li><a href="" id="lien">Noyaux de fruit</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Plaquette Peuplier</a></li>
+                                            <li><a href="" id="lien">Plaquette Peuplier</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Terre de Bruyère</a></li>
+                                            <li><a href="" id="lien">Terre de Bruyère</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Terre végétale</a></li>
+                                            <li><a href="" id="lien">Terre végétale</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Terreau Ecolabel</a></li>
+                                            <li><a href="" id="lien">Terreau Ecolabel</a></li>
                                         </tr>   
                                     </table>
                                 </div>
@@ -164,9 +162,9 @@ include('includes/header.php');
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" alt="livraison services" src="images/gazon.jpg">
                             </div>
-                            <div class="card-content"> 
+                            <div class="card-content" id="cont"> 
                                 <span class="card-title activator grey-text text-darken-4">ACCESSOIRES<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#" class="lien">Aller voir</a></p>
+                                <p><a href="#" id="lien">Aller voir</a></p>
                             </div>
                             <div class="card-reveal"> 
                                 <span class="card-title grey-text text-darken-4">ACCESSOIRES<i class="material-icons right">close</i></span>
@@ -175,22 +173,22 @@ include('includes/header.php');
                                 <div class="marge">
                                     <table>
                                         <tr>
-                                            <li><a href="" class="lien">Bordures</a></li>
+                                            <li><a href="" id="lien">Bordures</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Dalles alvéolées</a></li>
+                                            <li><a href="" id="lien">Dalles alvéolées</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Engrais</a></li>
+                                            <li><a href="" id="lien">Engrais</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Gazon</a></li>
+                                            <li><a href="" id="lien">Gazon</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Gazon de placage</a></li>
+                                            <li><a href="" id="lien">Gazon de placage</a></li>
                                         </tr>
                                         <tr>
-                                            <li><a href="" class="lien">Traverse</a></li>
+                                            <li><a href="" id="lien">Traverse</a></li>
                                         </tr>  
                                     </table>
                                 </div>
@@ -202,7 +200,7 @@ include('includes/header.php');
                 <!-- FIN ROW2 -->
                 
                 <!-- PARALLAX 2 -->
-                <div class="parallax-container">
+                <div class="parallax-container" id="ac">
                     <div class="parallax">
                         <img src="images/copeaubois.jpg">
                     </div>
@@ -214,11 +212,11 @@ include('includes/header.php');
                     <div class="col s12 m6 l6">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" alt="livraison services" src="images/livraison">
+                                <img class="activator" alt="livraison services" src="images/livraison.jpg">
                             </div>
-                            <div class="card-content"> 
+                            <div class="card-content" id="cont"> 
                                 <span class="card-title activator grey-text text-darken-4">NOS SERVICES<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#" class="lien">Aller voir</a></p>
+                                <p><a href="#" id="lien">Aller voir</a></p>
                             </div>
                             <div class="card-reveal"> 
                                 <span class="card-title grey-text text-darken-4">NOS SERVICES<i class="material-icons right">close</i></span>
@@ -227,22 +225,22 @@ include('includes/header.php');
                                 <div class="marge">
                                     <table>
                                         <tr>
-                                           <li><a href="" class="lien">Compte client</a></li>
+                                           <li><a href="" id="lien">Compte client</a></li>
                                         </tr>
                                         <tr>
-                                           <li><a href="" class="lien">Conseils de pro</a></li>
+                                           <li><a href="" id="lien">Conseils de pro</a></li>
                                         </tr>
                                         <tr>
-                                           <li><a href="" class="lien">Devis gratuit</a></li>
+                                           <li><a href="" id="lien">Devis gratuit</a></li>
                                         </tr>
                                         <tr>
-                                           <li><a href="" class="lien">Livraison</a></li>
+                                           <li><a href="" id="lien">Livraison</a></li>
                                         </tr>
                                         <tr>
-                                           <li><a href="" class="lien">Pré-commande</a></li>
+                                           <li><a href="" id="lien">Pré-commande</a></li>
                                         </tr>
                                         <tr>
-                                           <li><a href="" class="lien">Recherche de produits<br>
+                                           <li><a href="" id="lien">Recherche de produits<br>
                                                 sur commande</a></li>
                                         </tr>   
                                     </table>
@@ -256,9 +254,9 @@ include('includes/header.php');
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" alt="livraison services" src="images/concept1.jpg">
                             </div>
-                            <div class="card-content"> 
+                            <div class="card-content" id="cont"> 
                                 <span class="card-title activator grey-text text-darken-4">CONCEPTIONS<i class="material-icons right">more_vert</i></span>
-                                <p><a href="concept.php" class="lien">Aller voir</a></p>
+                                <p><a href="concept.php" id="lien">Aller voir</a></p>
                             </div>
                             <div class="card-reveal"> 
                                 <span class="card-title grey-text text-darken-4">CONCEPTIONS<i class="material-icons right">close</i></span>
@@ -271,7 +269,7 @@ include('includes/header.php');
                                 <div class="marge">
                                     <table>
                                         <tr>
-                                           <li><a href="concept.php" class="lien">Nos conceptions</a></li>
+                                           <li><a href="concept.php" id="lien">Nos conceptions</a></li>
                                         </tr>   
                                     </table>
                                 </div>
@@ -282,7 +280,7 @@ include('includes/header.php');
             </div>
             <!-- FIN DU CONTAINER -->
   
-            <div class="parallax-container">
+            <div class="parallax-container" id="ac">
                 <div class="parallax">
                     <img src="images/herbe.jpg">
                 </div>

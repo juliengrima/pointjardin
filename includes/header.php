@@ -31,6 +31,12 @@
         }
     </SCRIPT>
 
+    <script>
+        $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+    </script>
+
 
     <SCRIPT type="text/javascript">
         function chiffres(objInput) {
@@ -45,24 +51,25 @@
 
 <body class="back">
 
-    <header>
-        <div class="navbar-fixed">
-            <nav class="light-green lighten-1" role="navigation">
-                <div class="nav-wrapper container">
-                    <a href="#" class="brand-logo" id="logo-container"><img src="images/logo3.png" class="imglogo"></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">A propos</a></li>
-                        <li><a href="/" class="contact">Nous contacter</a></li>
-                        <li><i class="material-icons">search</i></li>
-                        <li><i class="material-icons">shopping_cart</i></li>
-                    </ul>
+<header>
+    <div class="navbar-fixed">
+        <nav class="light-green lighten-1" role="navigation">
+            <div class="nav-wrapper">
+                <a href="index.php" class="brand-logo" id="logo-container"><img src="images/logo3.png" class="imglogo"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="contact.php" class="contact">Nous contacter</a></li>
+                    <li><i class="material-icons">search</i></li>
+                </ul>
 
-                    <ul id="nav-mobile" class="side-nav">
-                        <li><a href="#">Navbar Link</a></li>
-                    </ul>
-                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-                </div>
-            </nav>
-        </div>
-    </header>
+                <ul class="right hide-on-med-and-down" id="mobile-demo">
+                    <li><a href="#"><i class="material-icons">home</i></a></li>
+                    <li><a href="#"><i class="material-icons">person_pin</i></a></li>
+                    <li><a href="contact.php" class="contact"><i class="material-icons">email</i></a></li>
+                    <li><i class="material-icons">search</i></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
