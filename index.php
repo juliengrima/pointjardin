@@ -251,7 +251,7 @@ include('includes/header.php');
                         </div>
 
                     </div>
-                    <div class="col s12 m6 l6 center">
+                    <div class="col s12 m6 l6">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" alt="livraison services" src="images/concept1.jpg">
