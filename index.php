@@ -78,7 +78,7 @@ include('includes/header.php');
                             </div>
                             <div class="card-content"> 
                                 <span class="card-title activator grey-text text-darken-4">MINERAL<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#" class="lien">Aller voir</a></p>
+                                <p><a href="mineral.php" class="lien">Aller voir</a></p>
                             </div>
                             <div class="card-reveal"> 
                                 <span class="card-title grey-text text-darken-4">MINERAL<i class="material-icons right">close</i></span>

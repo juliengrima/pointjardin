@@ -246,6 +246,7 @@ A:hover {
 footer.page-footer {
     background-color: #9ccc65;
     color: white;
+    margin-top: 0px;
 }
 
 footer ul li {
